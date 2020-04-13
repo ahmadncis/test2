@@ -9,11 +9,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hello world"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.151" />
 
     <Button
         android:id="@+id/button"
@@ -22,5 +25,14 @@
         android:text="Button"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="209dp"
+        android:layout_height="81dp"
+        android:text="git issss"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="237dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
